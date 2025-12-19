@@ -5,7 +5,7 @@ Organ Age Prediction from SomaScan Proteomic Data
 ## Installation
 ```r
 # Install from GitHub
-remotes::install_github("yourusername/OrganAgeR")
+remotes::install_github("kaiyong821/OrganAgeRpackage")
 ```
 
 ## Usage
