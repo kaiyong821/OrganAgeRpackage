@@ -1,0 +1,20 @@
+Package: OrganAgeR
+Type: Package
+Title: Organ Age Prediction from Proteomic Data (SomaScan 7k)
+Version: 1.0.0
+Authors@R: person("KAIYONG", "QU", email = "qukaiyong821@163.com", 
+                  role = c("aut", "cre"))
+Description: Predicts biological age for multiple organs using SomaLogic 
+    proteomic data. Calculates organ-specific age gaps based on 
+    cohort-specific LOWESS normalization.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5.0)
+Imports:
+    dplyr (>= 1.0.0),
+    stats,
+    rlang,
+    utils
+RoxygenNote: 7.3.3
