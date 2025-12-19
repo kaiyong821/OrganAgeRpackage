@@ -10,7 +10,7 @@ remotes::install_github("kaiyong821/OrganAgeRpackage")
 
 ## Usage
 ```r
-library(OrganAgeRpackage)
+library(OrganAgeR)
 
 # Predict organ ages
 result <- estimate_organ_age(
